@@ -60,16 +60,18 @@ body {
 
 
 header {
-	position: relative;
-
+	/* position: relative; */
+	/* width: 100%; */
 }
 
 
 .navbar {
+
 	position: fixed;
 	z-index: 1;
 	background-color: rgb(0, 0, 0, 0.8);
 	width: 100vw;
+
 }
 
 
@@ -90,14 +92,16 @@ header {
 }
 
 section#first {
-
-	background-image: url(img/The%20Goose%20Header.jpg);
+	/* position: fixed; */
+	margin-bottom: 40px;
+	/* background-image: url(img/The%20Goose%20Header.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	margin-bottom: 40px;
 	height: 100vh;
-	/* width: 100vw; */
+	width: 100vw; */
+
 }
 
 /* @media(max-width:380px) {
@@ -109,18 +113,31 @@ section#first {
 
 
 #first div {
-
-	display: flex;
+	/* text-align: center; */
+	/* display: flex;
 	justify-content: center;
-	top: 70px;
+	top: 70px; */
 }
 
 #first div img {
-	/* margin-top: 100px; */
+	/* margin-top: 80px; */
 
 
 }
 
+.head {
+	position: relative;
+
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	/* justify-items: center; */
+	position: absolute;
+	top: 60px;
+	left: 10px;
+}
 
 
 h2.main {
@@ -140,6 +157,7 @@ h2 {
 
 
 section#info {
+
 	/* background-image: url(img/Info.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
