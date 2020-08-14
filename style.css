@@ -50,19 +50,8 @@ body {
 	font-family: arial;
 	letter-spacing: 2px;
 	color: white;
-	/* max-width: 1480px; */
-
-	/* margin: 0 auto; */
-	/* line-height: 1.6; */
-
 }
 
-
-
-header {
-	/* position: relative; */
-	/* width: 100%; */
-}
 
 
 .navbar {
@@ -87,43 +76,17 @@ header {
 
 .navbar li a {
 	font-size: 18px;
-	/* padding: 15px; */
-	/* color: rgb(206, 202, 194) !important; */
+
 }
 
 section#first {
-	/* position: fixed; */
+
 	margin-bottom: 40px;
-	/* background-image: url(img/The%20Goose%20Header.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	margin-bottom: 40px;
-	height: 100vh;
-	width: 100vw; */
 
 }
 
-/* @media(max-width:380px) {
-	section#first {
-		background-image: none;
-		height: 40vh;
-		/* display: none; */
 
 
-
-#first div {
-	/* text-align: center; */
-	/* display: flex;
-	justify-content: center;
-	top: 70px; */
-}
-
-#first div img {
-	/* margin-top: 80px; */
-
-
-}
 
 .head {
 	position: relative;
@@ -133,7 +96,6 @@ section#first {
 .logo {
 	display: flex;
 	justify-content: center;
-	/* justify-items: center; */
 	position: absolute;
 	top: 60px;
 	left: 10px;
@@ -158,12 +120,7 @@ h2 {
 
 section#info {
 
-	/* background-image: url(img/Info.jpg);
-	background-size: cover;
-	background-repeat: no-repeat;
-	height: 100vh;
-	margin-bottom: 40px; */
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 
 }
 
@@ -176,7 +133,7 @@ section#classic {
 
 
 #classic img {
-	/* width: 100vw; */
+
 	height: auto;
 
 }
@@ -187,7 +144,7 @@ section#original {
 }
 
 #original img {
-	/* width: 100%; */
+
 	height: auto;
 }
 
@@ -235,7 +192,7 @@ p.foot {
 
 p.adress {
 	text-align: center;
-	/* margin-top: -30px; */
+
 	color: rgb(180, 176, 170);
 }
 
