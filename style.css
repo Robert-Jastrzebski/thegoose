@@ -100,26 +100,23 @@ section#first {
 	/* width: 100vw; */
 }
 
-@media(max-width:380px) {
+/* @media(max-width:380px) {
 	section#first {
 		background-image: none;
 		height: 40vh;
 		/* display: none; */
-	}
-}
+
 
 
 #first div {
 
 	display: flex;
 	justify-content: center;
-
 	top: 70px;
 }
 
 #first div img {
 	/* margin-top: 100px; */
-
 
 
 }
