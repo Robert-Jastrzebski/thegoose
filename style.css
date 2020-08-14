@@ -11,7 +11,7 @@
 	right: 20px;
 	width: 30px;
 	height: 30px;
-	font-size: 26px;
+	font-size: 24px;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -41,7 +41,7 @@ html {
 	/* overflow-y: scroll; */
 	scroll-behavior: smooth;
 	/* scroll-snap-type: y mandatory; */
-
+	overflow-x: hidden;
 }
 
 
@@ -50,6 +50,7 @@ body {
 	font-family: arial;
 	letter-spacing: 2px;
 	color: white;
+	overflow-x: hidden;
 }
 
 
@@ -120,14 +121,16 @@ h2 {
 
 section#info {
 
-	margin-bottom: 40px;
+	margin-bottom: 50px;
+
 
 }
 
 
 
 section#classic {
-	margin-bottom: 20px;
+	margin-bottom: 40px;
+	margin-top: 20px;
 }
 
 
@@ -140,7 +143,8 @@ section#classic {
 
 
 section#original {
-	margin-top: 30px;
+	margin-top: 50px;
+	margin-bottom: 10px;
 }
 
 #original img {
@@ -192,7 +196,7 @@ p.foot {
 
 p.adress {
 	text-align: center;
-
+	/* margin-top: -30px; */
 	color: rgb(180, 176, 170);
 }
 
