@@ -9,9 +9,9 @@
 	background: rgb(186, 184, 184, 0.7);
 	position: fixed;
 	right: 20px;
-	width: 30px;
-	height: 30px;
-	font-size: 24px;
+	width: 35px;
+	height: 35px;
+	font-size: 26px;
 	border-radius: 50%;
 	display: flex;
 	align-items: center;
@@ -21,6 +21,7 @@
 	text-decoration: none;
 	opacity: 0;
 	transition: all .4s;
+
 
 }
 
@@ -44,6 +45,11 @@ html {
 	overflow-x: hidden;
 }
 
+@media(max-width: 460px) {
+	html {
+		overflow-x: hidden;
+	}
+}
 
 body {
 	background-color: #1b1b1d;
@@ -54,6 +60,11 @@ body {
 }
 
 
+@media(max-width: 460px) {
+	body {
+		overflow-x: hidden;
+	}
+}
 
 .navbar {
 
@@ -120,12 +131,24 @@ h2 {
 
 
 section#info {
-
+	/* position: relative; */
 	margin-bottom: 50px;
-
 
 }
 
+
+#maintxt {
+
+	position: absolute;
+	top: 55%;
+	/* left: 10%; */
+	/* margin-left: 100px; */
+	/* width: 100vw; */
+	background-color: rgba(58, 56, 56, 0.8);
+	color: rgb(240, 239, 234);
+	font-size: 20px;
+
+}
 
 
 section#classic {
