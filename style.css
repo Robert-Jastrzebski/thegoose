@@ -42,14 +42,14 @@ html {
 	/* overflow-y: scroll; */
 	scroll-behavior: smooth;
 	/* scroll-snap-type: y mandatory; */
-	overflow-x: hidden;
+	/* overflow-x: hidden; */
 }
 
-@media(max-width: 460px) {
+/* @media(max-width: 460px) {
 	html {
 		overflow-x: hidden;
 	}
-}
+} */
 
 body {
 	background-color: #1b1b1d;
@@ -60,11 +60,11 @@ body {
 }
 
 
-@media(max-width: 460px) {
+/* @media(max-width: 460px) {
 	body {
 		overflow-x: hidden;
 	}
-}
+} */
 
 .navbar {
 
@@ -98,12 +98,6 @@ section#first {
 }
 
 
-
-
-.head {
-	position: relative;
-
-}
 
 .logo {
 	display: flex;
