@@ -1,285 +1,227 @@
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .to-top {
-	background: rgb(186, 184, 184, 0.7);
-	position: fixed;
-	right: 20px;
-	width: 35px;
-	height: 35px;
-	font-size: 26px;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	color: black;
-	pointer-events: none;
-	text-decoration: none;
-	opacity: 0;
-	transition: all .4s;
+  background: rgb(186, 184, 184, 0.7);
+  position: fixed;
+  right: 20px;
+  width: 35px;
+  height: 35px;
+  font-size: 26px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  pointer-events: none;
+  text-decoration: none;
+  opacity: 0;
+  transition: all 0.4s;
 }
 
 .to-top:hover {
-	color: rgb(73, 59, 23);
+  color: rgb(73, 59, 23);
 }
 
 .to-top.active {
-	bottom: 24px;
-	pointer-events: auto;
-	opacity: 1;
-	text-decoration: none;
+  bottom: 24px;
+  pointer-events: auto;
+  opacity: 1;
+  text-decoration: none;
 }
-
 
 html {
-
-	scroll-behavior: smooth;
-
+  scroll-behavior: smooth;
+  overflow: hidden;
 }
-
-
 
 body {
-	background-color: #1b1b1d;
-	font-family: arial;
-	letter-spacing: 2px;
-	color: white;
-	overflow-x: hidden;
+  background-color: #1b1b1d;
+  font-family: arial;
+  letter-spacing: 2px;
+  color: white;
+  /* overflow-x: hidden; */
 }
-
-
-
 
 .navbar {
-
-	position: fixed;
-	z-index: 1;
-	background-color: rgb(0, 0, 0, 0.8);
-	height: 62px;
-	/* padding: 10px; */
-	width: 100%;
-
+  position: fixed;
+  z-index: 1;
+  background-color: rgb(0, 0, 0, 0.8);
+  height: 62px;
+  /* padding: 10px; */
+  width: 100%;
 }
 
-
-
 .navbar ul {
-
-	margin: 0 auto;
+  margin: 0 auto;
 }
 
 .navbar li {
-	margin-left: 20px;
+  margin-left: 20px;
 }
 
 .navbar li a {
-	font-size: 18px;
-
+  font-size: 18px;
 }
 
 section#first {
-
-	margin-bottom: 40px;
-
+  margin-bottom: 40px;
 }
 
 .mainlogo {
-	background-image: url("img/The Goose Header.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-	background-position: center;
-	height: 100%;
-	padding-top: 90px;
-	/* max-height: 600px; */
+  background-image: url("img/The Goose Header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: fit-content;
+  /* padding-top: 90px; */
 }
-
-
 
 .logo {
-	text-align: center;
-
-
+  text-align: center;
 }
 
-@media (max-width:575px) {
-	.mainlogo {
-		padding-top: 30px;
-		height: fit-content;
-	}
-
-
+@media (max-width: 575px) {
+  .mainlogo {
+    padding-top: 30px;
+    height: fit-content;
+  }
 }
-
 
 @media (min-width: 576px) {
-	.mainlogo {
-		padding-top: 30px;
-		height: fit-content;
-	}
-
+  .mainlogo {
+    padding-top: 30px;
+    height: fit-content;
+  }
 }
 
+@media (min-width: 768px) {
+}
 
-@media (min-width: 768px) {}
+@media (min-width: 992px) {
+}
 
-@media (min-width: 992px) {}
-
-
-@media (min-width: 1200px) {}
-
+@media (min-width: 1200px) {
+}
 
 h2.main {
-	text-transform: uppercase;
-	text-align: center;
-	margin-bottom: 40px;
-	color: #d3d3d3;
-
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #d3d3d3;
 }
 
 h2 {
-	text-align: center;
-	font-size: 30px;
-	color: #d3d3d3;
+  text-align: center;
+  font-size: 30px;
+  color: #d3d3d3;
 }
-
-
 
 section#info {
-	display: flex;
-	margin-bottom: 50px;
+  display: flex;
+  margin-bottom: 50px;
 }
 
-
-
 .thumbnail {
-	position: relative;
+  position: relative;
 }
 
 .caption {
-
-	position: absolute;
-	top: 35%;
-	left: 5%;
-	font-size: 1.5em;
-	letter-spacing: 1px;
-	width: 90%;
-	padding: 15px;
-	background-color: rgba(53, 50, 50, 0.8);
+  position: absolute;
+  top: 35%;
+  left: 5%;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+  width: 90%;
+  padding: 15px;
+  background-color: rgba(53, 50, 50, 0.8);
 }
 
 @media (max-width: 1080px) {
-	.caption {
-		position: initial;
-		width: 100%;
-		font-size: 1.1em;
-
-	}
+  .caption {
+    position: initial;
+    width: 100%;
+    font-size: 1.1em;
+  }
 }
-
-
 
 .textpe {
-	padding: 30px;
-	color: rgb(230, 228, 228);
+  padding: 30px;
+  color: rgb(230, 228, 228);
 }
-
-
-
-
-
-
 
 #maintxt {
-
-	position: absolute;
-	top: 55%;
-	/* left: 10%; */
-	/* margin-left: 100px; */
-	/* width: 100vw; */
-	background-color: rgba(58, 56, 56, 0.8);
-	color: rgb(240, 239, 234);
-	font-size: 20px;
-
+  position: absolute;
+  top: 55%;
+  /* left: 10%; */
+  /* margin-left: 100px; */
+  /* width: 100vw; */
+  background-color: rgba(58, 56, 56, 0.8);
+  color: rgb(240, 239, 234);
+  font-size: 20px;
 }
-
 
 section#classic {
-	margin-bottom: 40px;
-	margin-top: 20px;
+  margin-bottom: 40px;
+  margin-top: 20px;
 }
-
-
 
 #classic img {
-
-	height: auto;
-
+  height: auto;
 }
 
-
 section#original {
-	margin-top: 50px;
-	margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 10px;
 }
 
 #original img {
-
-	height: auto;
+  height: auto;
 }
 
 iframe {
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .d-none,
 .fa-phone,
 .fa-envelope,
 .fa-home {
-
-	color: rgb(206, 203, 199);
-
+  color: rgb(206, 203, 199);
 }
 
 .face {
-
-	color: rgb(206, 203, 199);
+  color: rgb(206, 203, 199);
 }
 
 .face:hover {
-	text-decoration: none;
-	color: rgb(248, 248, 248);
+  text-decoration: none;
+  color: rgb(248, 248, 248);
 }
 
-
 .face1 {
-
-	color: rgb(206, 203, 199);
+  color: rgb(206, 203, 199);
 }
 
 .face1:hover {
-	text-decoration: none;
-	color: rgb(227, 228, 228);
+  text-decoration: none;
+  color: rgb(227, 228, 228);
 }
 
-
-
-
 p.foot {
-	text-align: center;
-	color: rgb(180, 176, 170);
+  text-align: center;
+  color: rgb(180, 176, 170);
 }
 
 p.adress {
-	text-align: center;
-	/* margin-top: -30px; */
-	color: rgb(180, 176, 170);
+  text-align: center;
+  /* margin-top: -30px; */
+  color: rgb(180, 176, 170);
 }
 
 .text-center {
-	color: #d3d3d3;
+  color: #d3d3d3;
 }
