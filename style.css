@@ -21,8 +21,6 @@
 	text-decoration: none;
 	opacity: 0;
 	transition: all .4s;
-
-
 }
 
 .to-top:hover {
@@ -34,22 +32,16 @@
 	pointer-events: auto;
 	opacity: 1;
 	text-decoration: none;
-
 }
 
 
 html {
-	/* overflow-y: scroll; */
+
 	scroll-behavior: smooth;
-	/* scroll-snap-type: y mandatory; */
-	/* overflow-x: hidden; */
+
 }
 
-/* @media(max-width: 460px) {
-	html {
-		overflow-x: hidden;
-	}
-} */
+
 
 body {
 	background-color: #1b1b1d;
@@ -60,11 +52,7 @@ body {
 }
 
 
-/* @media(max-width: 460px) {
-	body {
-		overflow-x: hidden;
-	}
-} */
+
 
 .navbar {
 
@@ -97,15 +85,45 @@ section#first {
 
 }
 
+.mainlogo {
+	background-image: url("img/The Goose Header.jpg");
+	background-size: cover;
+	height: 100vh;
+	padding-top: 90px;
+
+}
+
 
 
 .logo {
-	display: flex;
-	justify-content: center;
-	position: absolute;
-	top: 60px;
-	left: 10px;
+	text-align: center;
+
+
 }
+
+@media (max-width:575px) {
+	.mainlogo {
+		padding-top: 30px;
+		height: fit-content;
+	}
+}
+
+
+@media (min-width: 576px) {
+	.mainlogo {
+		padding-top: 30px;
+		height: fit-content;
+	}
+
+}
+
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+
+@media (min-width: 1200px) {}
 
 
 h2.main {
@@ -141,7 +159,7 @@ section#info {
 	top: 35%;
 	left: 5%;
 	font-size: 1.5em;
-	letter-spacing: 2px;
+	letter-spacing: 1px;
 	width: 90%;
 	padding: 15px;
 	background-color: rgba(53, 50, 50, 0.8);
@@ -151,6 +169,7 @@ section#info {
 	.caption {
 		position: initial;
 		width: 100%;
+		font-size: 1em;
 
 	}
 }
