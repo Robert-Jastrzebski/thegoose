@@ -125,10 +125,47 @@ h2 {
 
 
 section#info {
-	/* position: relative; */
+	display: flex;
 	margin-bottom: 50px;
-
 }
+
+
+
+.thumbnail {
+	position: relative;
+}
+
+.caption {
+
+	position: absolute;
+	top: 35%;
+	left: 5%;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	width: 90%;
+	padding: 15px;
+	background-color: rgba(53, 50, 50, 0.8);
+}
+
+@media (max-width: 1080px) {
+	.caption {
+		position: initial;
+		width: 100%;
+
+	}
+}
+
+
+
+.textpe {
+	padding: 30px;
+	color: rgb(230, 228, 228);
+}
+
+
+
+
+
 
 
 #maintxt {
