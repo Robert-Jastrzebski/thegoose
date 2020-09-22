@@ -83,8 +83,8 @@
 	<section id="info">
 
 		<div class="row" id="box-search">
-			<div class="thumbnail text-center">
-				<img src="img/Info.jpg" alt="" class="img-fluid">
+			<div class="thumbnail text-center col-lg-12">
+				<img src="img/Info.jpg" alt="" class="img-fluid photoinfo">
 				<div class="caption col-sm-12 ">
 					<p class="text-justify textpe">
 						Codziennie czekamy na Was z uśmiechem na twarzy. Pełni pozytywnej energii i entuzjazmu, którymi
@@ -342,7 +342,7 @@
 			<p class="foot"> Wszelkie Prawa Zastrzeżone &copy; Web Developer Robert Jastrzębski 2020</p>
 		</div>
 	</footer>
-	<a href="#" class="to-top"> <i class="fas fa-chevron-up"></i></a>
+	<a data-scroll href="#" class="to-top"> <i class="fas fa-chevron-up"></i></a>
 
 
 	<script src="https://code.jquery.com/jquery-3.5.1.min.js">
@@ -356,8 +356,9 @@
 	</script>
 	<script src="js/bootstrap.min.js">
 
-	</script>
 
+	</script>
+	<!-- <script src="path/to/smooth-scroll.polyfills.min.js"></script> -->
 	<script>
 		$(".nav-item").click(function () {
 			$("#mainmenu").removeClass('show');
@@ -383,16 +384,10 @@
 			}
 		})
 
-		// $(".to-top").click(function () {
-		// $(document.body).addClass()
+	
+	
 
-		// })
-	</script>
-
-
-
-
-
+		
 	</script>
 </body>
 

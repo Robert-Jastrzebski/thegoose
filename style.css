@@ -129,6 +129,10 @@ section#info {
   position: relative;
 }
 
+.photoinfo {
+  width: 100vw;
+}
+
 .caption {
   position: absolute;
   top: 35%;
