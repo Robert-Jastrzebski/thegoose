@@ -81,6 +81,7 @@ section#first {
 
 .logo {
   text-align: center;
+  margin: 30px;
 }
 
 @media (max-width: 575px) {
@@ -135,7 +136,7 @@ section#info {
   font-size: 1.5em;
   letter-spacing: 1px;
   width: 90%;
-  padding: 15px;
+  /* padding: 15px; */
   background-color: rgba(53, 50, 50, 0.8);
 }
 
